@@ -1,4 +1,4 @@
-# Colour Game
+# Budget Manager - Chrome Extension
 
 Hi! I'm **Reetik Rajan** and I made this repository for my first functional Chrome Extention to Manage your Budget.
 
