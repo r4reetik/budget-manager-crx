@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2,
+    "name": "Budget Manager",
+    "version": "20.6.15.17",
+    "description": "It'll help you to manage your spendings.",
+    "icons": {
+        "16": "icons/budget_16p.png",
+        "24": "icons/budget_24p.png",
+        "32": "icons/budget_32p.png",
+        "48": "icons/budget_48p.png",
+        "64": "icons/budget_64p.png",
+        "72": "icons/budget_72p.png",
+        "96": "icons/budget_96p.png",
+        "128": "icons/budget_128p.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/budget_16p.png",
+            "24": "icons/budget_24p.png",
+            "32": "icons/budget_32p.png",
+            "48": "icons/budget_48p.png",
+            "64": "icons/budget_64p.png",
+            "72": "icons/budget_72p.png",
+            "96": "icons/budget_96p.png",
+            "128": "icons/budget_128p.png"
+        },
+        "default_title": "Budget Manager",
+        "default_popup": "popup.html"
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "background": {
+        "scripts": ["scripts/background.js"],
+        "persistent": false
+    },
+    "permissions": ["storage", "notifications", "contextMenus"]
+}

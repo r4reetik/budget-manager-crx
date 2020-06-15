@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/bootstrap.min.css" />
+        <link rel="stylesheet" href="styles/popup.css" />
+        <title>Budget Manager</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="popup.html">
+                <img
+                    src="/icons/budget_32p.png"
+                    class="d-inline-block align-top mr-2"
+                    alt="Budget Manager Icon"
+                    loading="lazy"
+                />
+                Budget Manager
+            </a>
+        </nav>
+        <div class="container-fluid pt-1">
+            <h4>Spending Limit : ₹ <span id="displayLimit">0</span></h4>
+            <h4>Total Spendings : ₹ <span id="displaySpend">0</span></h4>
+            <hr />
+            <form class="form-row">
+                <div class="form-group col">
+                    <input
+                        type="number"
+                        class="form-control"
+                        id="inputSpend"
+                        placeholder="Spend Amount"
+                        required
+                    />
+                </div>
+                <div class="form-group col-3">
+                    <button type="submit" class="btn btn-success" id="buttonSpend">Spend</button>
+                </div>
+            </form>
+        </div>
+
+        <script src="scripts/jquery-3.5.1.slim.min.js"></script>
+        <script src="scripts/popper.min.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+
+        <script src="scripts/popup.js"></script>
+    </body>
+</html>
